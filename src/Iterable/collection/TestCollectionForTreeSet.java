@@ -80,6 +80,7 @@ public class TestCollectionForTreeSet {
         System.out.println(list1.equals(list2)); //false
 
         list2.clear();
+
         list2.add("S");
         list2.add("A");
         list2.add("K");
