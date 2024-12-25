@@ -12,8 +12,8 @@ import java.util.Iterator;
      Iterator<T> interface -->
          01) boolean	        hasNext()
          02) E	            next()
-         03)default void	    forEachRemaining(Consumer<? super E> action)
-         04)default void	    remove()
+         03) default void	    forEachRemaining(Consumer<? super E> action)
+         04) default void	    remove()
 
      02) default void 	forEach(Consumer<? super T> action)
 
@@ -26,7 +26,7 @@ public class TestIterableForArrayDeque {
 
         ArrayDeque<String> list1=new ArrayDeque<>();
 
-        // Note that the add(E element) is defined in collection interface.
+        /* Note that the add(E element) is defined in collection interface. */
         list1.add("S");
         list1.add("A");
         list1.add("K");
